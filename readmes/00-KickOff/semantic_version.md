@@ -39,6 +39,87 @@
 - **Compatibilidad**: Facilita la gestión de dependencias y la integración de software, ya que se puede confiar en que las actualizaciones menores y de parches no romperán la compatibilidad.
 - **Comunicación**: Establece expectativas claras para los usuarios sobre la naturaleza y el impacto de una nueva versión.
 
+## 📦 Un Ejemplo Práctico de SemVer
+
+### 🔢 Sumar – Versión 1.0.0
+
+```js
+function sumar(a, b) {
+  const total = a + b;
+  return total;
+}
+```
+
+- Primera versión estable, versión 1.0.0.
+- La función suma dos números.
+
+### 🩹 Sumar – Versión 1.0.1 (PATCH)
+
+```js
+function sumar(a, b) {
+  return a + b;
+}
+```
+
+- Se trata de un arreglo interno / refactor.
+  - No cambia cómo se usa la función.
+  - No se agrega funcionalidad.
+  - Solo mejoras internas (bugs, legibilidad, performance, etc.)
+- Se modifica solo PATCH.
+- Aunque el código sea casi igual:
+
+### ✨ Sumar – Versión 1.1.0 (MINOR)
+
+```js
+function sumar(...numeros) {
+  return numeros.reduce((total, n) => total + n, 0);
+}
+```
+
+- Agregamos nueva funcionalidad.
+- Ahora puede sumar más de dos números.
+- Mantiene retrocompatibilidad:
+  - `sumar(2, 3);` sigue funcionando.
+- Se modifica MINOR.
+
+✅ Ejemplos válidos:
+
+```js
+sumar(2, 3); // 5
+sumar(1, 2, 3, 4); // 10
+```
+
+### 🚨 Sumar – Versión 2.0.0 (MAJOR)
+
+```js
+function sumar({ numeros }) {
+  return numeros.reduce((total, n) => total + n, 0);
+}
+```
+
+- Se introduce un cambio incompatible.
+- La función ya no recibe números sueltos, ahora recibe un objeto.
+- El código anterior deja de funcionar.
+- Se modifica MAJOR.
+
+❌ Esto ahora rompe:
+
+```js
+sumar(2, 3); // ERROR
+```
+
+✅ Nueva forma correcta:
+
+```js
+sumar({ numeros: [2, 3, 4] }); // 9
+```
+
+### 🧠 Resumen mental rápido (regla de oro)
+
+- PATCH (1.0.X) → arreglo interno 🩹
+- MINOR (1.X.0) → nueva funcionalidad sin romper nada ✨
+- MAJOR (X.0.0) → rompe compatibilidad 🚨
+
 ---
 
 [Volver a Inicio](../../README.md)
