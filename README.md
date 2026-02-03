@@ -4,6 +4,11 @@
 
 ### 01. TypeScript I
 
+- [JavaScript](./readmes/01-JavaScript/01-JavaScript.md)
+- [Errores en tiempo de Ejecución](./readmes/01-JavaScript/02-ErroresEjecucion.md)
+- [Use Strict en JavaScript](./readmes/01-JavaScript/03-UseStrict.md)
+- [TypeScript](./readmes/01-JavaScript/04-TypeScript.md)
+
 ### 02. TypeScript II
 
 ---

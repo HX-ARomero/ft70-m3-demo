@@ -36,7 +36,7 @@
   - Evita doblarlas o forzarlas
 - Siempre que puedas, usa una silla ergonómica
 
-[<img src="./assets/postura.png" width="800"/>](Cronograma)
+<img src="./assets/postura.png" width="800"/>
 
 ## DIETA SANA 🍎
 
