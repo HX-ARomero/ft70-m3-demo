@@ -22,9 +22,9 @@ presentarUsuario("Homero");
 // Retorno esperado: "Nombre: Homero, Edad: No especificada"
 presentarUsuario("Marge", "Bubbie");
 // Retorno esperado: "Nombre: Marge, Apellido: Bubbie, Edad: No especificada"
-presentarUsuario("Lisa", "Simpson", "8");
+presentarUsuario("Marty", "Simpson", "8");
 
-// Retorno esperado: "Nombre: Lisa, Apellido: Simpson, Edad: 8"
+// Retorno esperado: "Nombre: Marty, Apellido: Simpson, Edad: 8"
 
 //? EJERCICIO 3 ----- ----- ----- -----
 //* Generar el Tipo Personalizado "TPersonaje":
@@ -126,7 +126,7 @@ type TUsuario = null;
 
 //* 4. Instancias:
 // Crea al menos un objeto de tipo Estudiante:
-const lisa: TEstudiante = {};
+const marty: TEstudiante = {};
 
 // Crea al menos un objeto de tipo Profesor:
 const largo: TProfesor = {};
@@ -134,5 +134,5 @@ const largo: TProfesor = {};
 // Crea una función mostrarUsuario(usuario: Usuario) que acepte un Usuario e imprima información relevante según sea Estudiante o Profesor:
 function mostrarUsuario(usuario: TUsuario) {}
 
-mostrarUsuario(lisa);
+mostrarUsuario(marty);
 mostrarUsuario(largo);
