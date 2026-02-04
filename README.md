@@ -11,6 +11,13 @@
 
 ### 02. TypeScript II
 
+- [TypeScript](./readmes/02-TypeScript/01-TypeScript.md)
+- [Interfaces & Tipos](./readmes/02-TypeScript/02-Interfaces%20y%20Tipos.md)
+- [Archivo "tsconfig.json](./readmes/02-TypeScript/03-tsconfig.md)
+- Ejercicios de TypeScript:
+  - [Primera Parte](./readmes/02-TypeScript/Ejercicios-TS-01.ts)
+  - [Segunda Parte](./readmes/02-TypeScript/Ejercicios-TS-02.ts)
+
 ---
 
 ## Material Extra - Varios
