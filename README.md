@@ -18,6 +18,12 @@
   - [Primera Parte](./readmes/02-TypeScript/Ejercicios-TS-01.ts)
   - [Segunda Parte](./readmes/02-TypeScript/Ejercicios-TS-02.ts)
 
+### 03. Express & TypeScript
+
+- [Express](./readmes/03-Express/express.md)
+- [Data Transfer Objects (DTOs)](./readmes/03-Express/dto.md)
+- [Repaso: Destructuring con Ejemplos](./readmes/03-Express/destructuring.ts)
+
 ---
 
 ## Material Extra - Varios

@@ -1,5 +1,7 @@
 # Ejemplo de Archivo "tsconfig.json"
 
+[Volver a Inicio](../../README.md)
+
 > Ejemplo de tsconfig.json configurado para un backend Node.js (Express + TypeORM), priorizando tipado estricto, mantenibilidad y compatibilidad con entornos de producción.
 
 > Se describen brevemente cada opción de las secciones del archivo "tsconfig.json".
@@ -15,6 +17,7 @@
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
     "module": "commonjs",
+    "esModuleInterop": true,
     "target": "es2020",
     "moduleResolution": "node",
 
@@ -96,11 +99,15 @@
 
 - **Compilación**: Establece cómo se transpila el código TypeScript a JavaScript y cómo se resuelven los módulos en un entorno Node.js.
 
-- `module: "commonjs"`
+- `"module": "commonjs"`
 
   Utiliza el sistema de módulos CommonJS, propio de Node.js (require, module.exports).
 
-- `target: "es2020"`
+- `"esModuleInterop": true`
+
+  Habilita la interoperabilidad entre módulos CommonJS y ECMAScript Modules, permitiendo importar librerías exportadas en CommonJS (como Express) utilizando la sintaxis de importación de ECMAScript.
+
+- `"target": "es2020"`
 
   Define la versión de JavaScript final. Permite usar:
   - async / await
