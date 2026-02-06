@@ -21,8 +21,12 @@
 ### 03. Express & TypeScript
 
 - [Express](./readmes/03-Express/express.md)
-- [Data Transfer Objects (DTOs)](./readmes/03-Express/dto.md)
 - [Repaso: Destructuring con Ejemplos](./readmes/03-Express/destructuring.ts)
+
+### 04. SQL & Express
+
+- [SQL - Structured Query Language](./readmes/04-SQL/sql.md)
+- [DTO - Data Transfer Objects)](./readmes/04-SQL/dto.md)
 
 ---
 

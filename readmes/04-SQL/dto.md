@@ -7,6 +7,8 @@
 - Los DTOs son objetos simples que no contienen lógica de negocio sino únicamente datos.
 - Su propósito principal es transportar datos de un lugar a otro de manera eficiente y estructurada.
 
+<img src="./assets/dto.png" alt="Data Transfer Object"/>
+
 ## Características de un DTO
 
 1. **Simplicidad**: Un DTO solo contiene campos y sus respectivos métodos de acceso (getters y setters). No incluye lógica de negocio.
