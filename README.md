@@ -28,6 +28,12 @@
 - [SQL - Structured Query Language](./readmes/04-SQL/sql.md)
 - [DTO - Data Transfer Objects)](./readmes/04-SQL/dto.md)
 
+### 05 & 06. TypeORM
+
+- [ORMs & TypeORM](./readmes/05-TypeORM/type_orm.md)
+- [Data Flow](./readmes/05-TypeORM/data_flow.md)
+- [Rutas](./readmes/05-TypeORM/rutas.md)
+
 ---
 
 ## Material Extra - Varios
