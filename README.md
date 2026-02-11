@@ -40,6 +40,12 @@
 - [Conceptos de JavaScript](./readmes/07-ReactIntro/conceptos_js.md)
 - [Estilos en React](./readmes/07-ReactIntro/css.md)
 - [FlexBox](./readmes/07-ReactIntro/flexbox.md)
+
+### 08. React DataFlow
+
+- [Props en React](./readmes/08-DataFlow/props.md)
+- [Estados en React](./readmes/08-DataFlow/estados.md)
+
 ---
 
 ## Material Extra - Varios
