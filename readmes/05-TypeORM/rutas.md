@@ -77,6 +77,8 @@
 }
 ```
 
+# Appointments
+
 ## GET /appointments/:id
 - **Descripción:**
 	- Obtiene el detalle de un turno.
@@ -85,8 +87,6 @@
 - **Respuesta:**
 	 - 200: Si el turno fue encontrado.
 	 - 404: Si el turno no fue encontrado.
-
-# Appointments
 
 ## POST /appointments/schedule
 - **Descripción:**
