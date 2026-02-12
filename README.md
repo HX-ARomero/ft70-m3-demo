@@ -43,8 +43,13 @@
 
 ### 08. React DataFlow
 
-- [Props en React](./readmes/08-DataFlow/props.md)
 - [Estados en React](./readmes/08-DataFlow/estados.md)
+- [Props en React](./readmes/08-DataFlow/props.md)
+
+### 09. React LifeCycle
+
+- [CORS (Cross-Origin Resource Sharing)](./readmes/09-LifeCycle/cors.md)
+- [Hook: useEffect](./readmes/09-LifeCycle/useEffect.md)
 
 ---
 
