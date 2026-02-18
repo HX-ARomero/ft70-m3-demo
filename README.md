@@ -63,6 +63,13 @@
 
 - [React Context](./readmes/12-ReactContext/ReactContext.md)
 
+## Repaso & Multiple Choice
+
+La idea es que puedas completar este simulacro de Checkpoint para repasar los contenidos y prepararte para la evaluación real.
+
+Cada pregunta incluye su respuesta dentro de un desplegable ubicado al final, para que puedas verificarla una vez que hayas intentado resolverla.
+
+- [Ir al Simulacro de CheckPoint](./readmes/simulacroChoice.md)
 ---
 
 ## Material Extra - Varios

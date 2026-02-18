@@ -1,6 +1,14 @@
 # Múltiple Choice
 
-[Volver a Inicio](../../README.md)
+[Volver a Inicio](../README.md)
+
+La idea es que puedas completar este simulacro de Checkpoint para repasar los contenidos y prepararte para la evaluación real.
+
+Cada pregunta incluye su respuesta dentro de un desplegable ubicado al final, para que puedas verificarla una vez que hayas intentado resolverla.
+
+Éxitos 🎉🎉🎉
+
+---
 
 ## 1. ¿Cuál es la salida de la siguiente ruta en un controlador de Express cuando se accede a GET /api/user/5?
 
@@ -596,4 +604,4 @@ a) `useLocation`
 
 ## Cada desafío es una oportunidad para aprender y crecer. ¡Sigue adelante, el éxito está en el camino! 💛💛💛
 
-[Volver a Inicio](../../README.md)
+[Volver a Inicio](../README.md)
